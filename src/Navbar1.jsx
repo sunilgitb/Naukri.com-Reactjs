@@ -148,9 +148,9 @@ export function Navbar1() {
             </ul>
            </div>
             <Popover >
-                <PopoverTrigger>
+            <PopoverTrigger>
                     {
-                        !user? <Button style={{ "marginLeft": "100px" }}>Login</Button> : <Button style={{ "marginLeft": "100px" }}>MY Naukri</Button>
+                        !user? <Button style={{ "marginLeft": "100px", "fontSize": "11px" }}>Login</Button> : <Button style={{ "marginLeft": "100px", "fontSize": "11px" }}>MY Naukri</Button>
                     }
                 </PopoverTrigger>
                 <PopoverArrow />
